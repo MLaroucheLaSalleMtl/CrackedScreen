@@ -1,0 +1,455 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4806271105166043187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4806271105166043184}
+  - component: {fileID: 4806271105166043185}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4806271105166043184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806271105166043187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -80.03776, y: -31.598095, z: 139.0152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4806271105166043185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806271105166043187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0454a1b7dcda93247a5a4d0a7ee72f27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterSounds:
+    AudioMixerGroup: {fileID: 243997608732459714, guid: b80431ec521b1a24f9e58422946661dc,
+      type: 2}
+    sounds:
+    - name: DimensionLeapPreparing
+      clip: {fileID: 8300000, guid: 987ed211e084d094586efa3e626bfd3a, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: DimensionLeapTo3D
+      clip: {fileID: 8300000, guid: ec1110e6bbdb5f345adbe5faae02450d, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Walk
+      clip: {fileID: 8300000, guid: 63fed0c663e351c45b8867960197ffa1, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Jump
+      clip: {fileID: 8300000, guid: 696d00eb9f3ed7e408a53f3b8556528e, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Double Jump
+      clip: {fileID: 8300000, guid: 21e3ae0b68a41b7448b5d32d8beee01e, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Run
+      clip: {fileID: 8300000, guid: 907a90cb1bfc2034b93849e51912d74d, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Defend
+      clip: {fileID: 8300000, guid: afeb0612bc95d1f49b23acddf45a0150, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: PlayerHurt
+      clip: {fileID: 8300000, guid: 65e80c98768434246a9b0b910ead6420, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Basic Attack
+      clip: {fileID: 8300000, guid: 237f469a819ef0e47beeee4b6cb0ea77, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Air Slash
+      clip: {fileID: 8300000, guid: 9d94f748c32cfd44ebda5ba00c1c65ac, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Dash
+      clip: {fileID: 8300000, guid: b83f36a087932f94891aa66a993d5e70, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Uppercut
+      clip: {fileID: 8300000, guid: 821692af9fcdb7142b548d3192add1e0, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Counter Attack
+      clip: {fileID: 8300000, guid: 2f3e1688336f1d9479a1c420ea7199e3, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: HeadCatchPerform
+      clip: {fileID: 8300000, guid: fcef82cc3df525840a2c28f13a59b919, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: HeadCatchExplode
+      clip: {fileID: 8300000, guid: 003563672aa2a4242ba6d6d9fe827c90, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: DefendSucceed
+      clip: {fileID: 8300000, guid: 949a9c6be37f197499b9763285f386b2, type: 3}
+      volume: 0.7
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Die
+      clip: {fileID: 8300000, guid: 5c6ee7dd0ce1ce44e9073381a6bc4ec0, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  FirstBossSounds:
+    AudioMixerGroup: {fileID: 243997608732459714, guid: b80431ec521b1a24f9e58422946661dc,
+      type: 2}
+    sounds:
+    - name: SerialAttack
+      clip: {fileID: 8300000, guid: fa359030ccfe2bc40979d7bb1e0621ee, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Spin
+      clip: {fileID: 8300000, guid: 49556d31acac5234da31e8652719f01b, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: IsHit
+      clip: {fileID: 8300000, guid: a48c8f092e471e04eb2f397dee987d62, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Die
+      clip: {fileID: 8300000, guid: 71e1a44127a647c49ab2c1554f880422, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Pierce
+      clip: {fileID: 8300000, guid: 7f08f148695324a42b580cf360802aed, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: PierceHitWall
+      clip: {fileID: 8300000, guid: 5ee84b0a172065046bc8e037d06db3fc, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: TornadoStomp
+      clip: {fileID: 8300000, guid: a980512385d73fd4fa90e265daea1028, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: PrepareToTornadoJump
+      clip: {fileID: 8300000, guid: 7b5b58be102a36948b7f6915f9b3d16d, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: BasicAttack
+      clip: {fileID: 8300000, guid: 6327ee764b65bcc41bd5e98d6204132b, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Move
+      clip: {fileID: 8300000, guid: 6a62423ccfc6ded4fafb9ba7312fa5b1, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: PierceHitPlayer
+      clip: {fileID: 8300000, guid: 1543beeff89e01c4cafd4c929b57d898, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: TornadoJump
+      clip: {fileID: 8300000, guid: 39d237f49d5d7e24db0bfa2866c58b4b, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: None
+      clip: {fileID: 8300000, guid: 71e1a44127a647c49ab2c1554f880422, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  SecondBossSounds:
+    AudioMixerGroup: {fileID: 243997608732459714, guid: b80431ec521b1a24f9e58422946661dc,
+      type: 2}
+    sounds:
+    - name: RollingAttackJump
+      clip: {fileID: 8300000, guid: ad87497a0ecceb741943406853424a0c, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: HitGround
+      clip: {fileID: 8300000, guid: 41492a53f26772449bd840777a7100d4, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Death
+      clip: {fileID: 8300000, guid: d077a1cd82fd0424d85f0439116274d1, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: HomeRunPrepare
+      clip: {fileID: 8300000, guid: 0103da3f2110bd04ca00bec9934d0403, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: DragonFistDash
+      clip: {fileID: 8300000, guid: 176b277e922a8674c8c2dc6b34cea95f, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: BaseBallStrike
+      clip: {fileID: 8300000, guid: 386fa57a8e1583c4c969a880e8e7fa7b, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Move
+      clip: {fileID: 8300000, guid: 6a62423ccfc6ded4fafb9ba7312fa5b1, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: BaseballImpactWave
+      clip: {fileID: 8300000, guid: dd98c2fe7fe121d42b63838e0e0296a4, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Jump
+      clip: {fileID: 8300000, guid: ad87497a0ecceb741943406853424a0c, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: DragonFistStrike
+      clip: {fileID: 8300000, guid: 492831c6666366844b7a42d3729f8b00, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: RollingAttackHitGround
+      clip: {fileID: 8300000, guid: 305953af31f174c4bae157bff5725e66, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: RollingAttackJump
+      clip: {fileID: 8300000, guid: 305953af31f174c4bae157bff5725e66, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: BasicAttackFirstStrike
+      clip: {fileID: 8300000, guid: 305953af31f174c4bae157bff5725e66, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: BasicAttackSecondStrike
+      clip: {fileID: 8300000, guid: 305953af31f174c4bae157bff5725e66, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: BasicAttackThirdStrike
+      clip: {fileID: 8300000, guid: 305953af31f174c4bae157bff5725e66, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  UiSounds:
+    AudioMixerGroup: {fileID: 243997608732459714, guid: b80431ec521b1a24f9e58422946661dc,
+      type: 2}
+    sounds:
+    - name: DialogueBoxOpen
+      clip: {fileID: 8300000, guid: d6b4985e63b918949a3ffe921fb677b3, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: DialogueBoxClose
+      clip: {fileID: 8300000, guid: d6b4985e63b918949a3ffe921fb677b3, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: DialogueLetterPop
+      clip: {fileID: 8300000, guid: c7bdadbde6447df4abcab4873eede56d, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Save
+      clip: {fileID: 8300000, guid: e5aa95b1fc5f97446991a42cbfa966c9, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: PauseGame
+      clip: {fileID: 8300000, guid: afb6ed254e034ac4098f1e98b0c39b4a, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: ResumeGame
+      clip: {fileID: 8300000, guid: afb6ed254e034ac4098f1e98b0c39b4a, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: GameOver
+      clip: {fileID: 8300000, guid: 125da6234e8d7b9478ae153dcf4606b2, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: Error
+      clip: {fileID: 8300000, guid: 8d6bae458a6f21547a9eeef7ecbc0225, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    - name: LaunchAttackWarning
+      clip: {fileID: 8300000, guid: fe2770fea3858c740b2bf58ff4f32251, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  BackgroundMusics:
+    AudioMixerGroup: {fileID: 243928605391016854, guid: b80431ec521b1a24f9e58422946661dc,
+      type: 2}
+    sounds:
+    - name: ChapterOneBegin
+      clip: {fileID: 8300000, guid: 9f52750aa06e52143be73d05ddc98a52, type: 3}
+      volume: 0.2
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: ChapterTwoBegin
+      clip: {fileID: 8300000, guid: 482b936633f4aa044abd53b6b108c5a5, type: 3}
+      volume: 0.3
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: ChapterOneBossFight
+      clip: {fileID: 8300000, guid: 40a36eab22a26074a9f11a881e759230, type: 3}
+      volume: 0.3
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: ChapterTwoBossFight
+      clip: {fileID: 8300000, guid: 50db4b3340c4ac54ea83139bdead9eae, type: 3}
+      volume: 0.2
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: Tutorial
+      clip: {fileID: 8300000, guid: 17cc3352b85090c4fad830b14b12010e, type: 3}
+      volume: 0.1
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: ChapterOneMid
+      clip: {fileID: 8300000, guid: f2804956dfa3d7245bf3ec199011e72e, type: 3}
+      volume: 0.1
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: BaJianShenQu
+      clip: {fileID: 8300000, guid: 4a9daf25d4aac7c47bfe44eed80857a0, type: 3}
+      volume: 1
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: "Tutorial\uFF1F"
+      clip: {fileID: 8300000, guid: 17cc3352b85090c4fad830b14b12010e, type: 3}
+      volume: 0.1
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: Tutorial
+      clip: {fileID: 8300000, guid: 17cc3352b85090c4fad830b14b12010e, type: 3}
+      volume: 0.1
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: EnemySpawner
+      clip: {fileID: 8300000, guid: 3b5fac8beb37a7e4481894ec1222d8a2, type: 3}
+      volume: 0.4
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: EnemySpawnerLevel2
+      clip: {fileID: 8300000, guid: 3b5fac8beb37a7e4481894ec1222d8a2, type: 3}
+      volume: 0.4
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
